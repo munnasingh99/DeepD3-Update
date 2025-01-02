@@ -7,12 +7,12 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="deepd3",
+    name="deepd3-update",
     long_description=long_description,
     long_description_content_type='text/markdown',
     version="0.1",
-    author="Andreas M Kist",
-    author_email="andreas.kist@fau.de",
+    author="Andreas M Kist,Munna P Singh",
+    author_email="andreas.kist@fau.de,munna.singh@fau.de",
     license="GPLv3",
     packages=find_packages(),
     install_requires=[
@@ -39,12 +39,15 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
     ],
     keywords="spine segmentation",
     description="A tool for segmenting dendrites and dendritic spines.",
     project_urls={
-        "Source": "https://github.com/ankilab/deepd3",
-        "Tracker": "https://github.com/ankilab/deepd3/issues",
+        "Source": "https://github.com/munnasingh99/DeepD3-Update",
+        "Tracker": "https://github.com/munnasingh99/DeepD3-Update/issues",
     },
     entry_points = {
         'console_scripts': [
