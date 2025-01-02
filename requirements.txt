@@ -1,2 +1,2 @@
-deepd3
+deepd3-update
 tensorflow
