@@ -72,13 +72,13 @@ def decoder(x, filters, layers, to_concat, name, activation):
 
     return x
     
-def DeepD3_Model(filters=32, input_shape=(128, 128, 1), layers=4, activation="swish"):
+def DeepD3_Model(filters=32, input_shape=(None, None, 1), layers=4, activation="swish"):
     """DeepD3 TensorFlow Keras Model. It defines the architecture,
     together with the single encoder and dual decoders.
 
     Args:
         filters (int, optional): Base filter multiplier. Defaults to 32.
-        input_shape (tuple, optional): Image shape for training. Defaults to (128, 128, 1).
+        input_shape (tuple, optional): Image shape for training. Defaults to (None, None, 1).
         layers (int, optional): Network depth layers. Defaults to 4.
         activation (str, optional): Activation function used in convolutional layers. Defaults to "swish".
 
